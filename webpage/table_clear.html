@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>table</title>
+    <link href="css/demo.css" rel="stylesheet"/>
+    <link href="css/mypage.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <body>
+	<img style="position:absolute;left:0px;top:0px;width:auto;height:auto;z-Index:-1; border:1px solid blue" src="img/1469524915290.jpg"/>
+     <h1>Table</h1>
+      </hr>
+	  <div class="col-md-12"> 
+        <h4>这是一个普通的表格</h4>
+            <div class="demo-table-min-size">
+                <table class="n-table n-table-standard n-table-striped n-table-cell-hover">
+                    <thead> 
+                        <tr>
+                            <th>图标简介</th>
+                            <th>名称</th>
+                            <th>IP地址</th>
+                            <th>选择框</th>
+                            <th>下拉框</th>
+                            <th>数字1</th>
+                            <th>数字2</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><span class="icon icon-fault-minor"></span></td>
+                            <td class="n-cell-control text-center">Critical fault</td>
+                            <td><input class="n-inputfield" value="10.39.190.96"></td>
+                            <td> 
+                                <div class="checkbox checkbox-small">
+                                    <input type="checkbox" id="cb1">
+                                    <label for="cb1">Option1</label>
+                                </div>
+                            </td>
+                            <td class="n-cell-control n-cell-dropdown">
+                              <div class="dropdown text-center">
+                               <button href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  dropdown1
+                               <b class="caret"></b></button>
+                                    <ul class="dropdown-menu text-center">
+                                        <li data-value="1"><a href="#"><span>One</span></a></li>
+                                        <li data-value="2"><a href="#"><span>Two</span></a></li>
+                                        <li data-value="3"><a href="#"><span>Three</span></a></li>
+                                        <li data-value="4"><a href="#"><span>Four</span></a></li>
+                                    </ul>
+                              </div>
+                            </td>
+                            <td>2010</td>
+                            <td>910</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-center"><span class="icon icon-fault-major"></span></td>
+                            <td class="n-cell-control text-center">Critical fault</td>
+                            <td><input class="n-inputfield" value="10.39.190.96"></td>
+                            <td> 
+                                <div class="checkbox checkbox-small">
+                                    <input type="checkbox" id="cb2">
+                                    <label for="cb2">Option2</label>
+                                </div>
+                            </td>
+                            <td class="n-cell-control n-cell-dropdown">
+                              <div class="dropdown text-center">
+                               <button href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  dropdown2
+                               <b class="caret"></b></button>
+                                    <ul class="dropdown-menu text-center">
+                                        <li data-value="1"><a href="#"><span>One</span></a></li>
+                                        <li data-value="2"><a href="#"><span>Two</span></a></li>
+                                        <li data-value="3"><a href="#"><span>Three</span></a></li>
+                                        <li data-value="4"><a href="#"><span>Four</span></a></li>
+                                    </ul>
+                              </div>
+                            </td>
+                            <td>2010</td>
+                            <td>910</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-center"><span class="icon icon-fault-critical"></span></td>
+                            <td class="n-cell-control text-center">Critical fault</td>
+                            <td><input class="n-inputfield" value="10.39.190.96"></td>
+                            <td> 
+                                <div class="checkbox checkbox-small">
+                                    <input type="checkbox" id="cb3">
+                                    <label for="cb3">Option3</label>
+                                </div>
+                            </td>
+                            <td class="n-cell-control n-cell-dropdown">
+                              <div class="dropdown text-center">
+                               <button href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  dropdown3
+                               <b class="caret"></b></button>
+                                    <ul class="dropdown-menu text-center">
+                                        <li data-value="1"><a href="#"><span>One</span></a></li>
+                                        <li data-value="2"><a href="#"><span>Two</span></a></li>
+                                        <li data-value="3"><a href="#"><span>Three</span></a></li>
+                                        <li data-value="4"><a href="#"><span>Four</span></a></li>
+                                    </ul>
+                              </div>
+                            </td>
+                            <td>2010</td>
+                            <td>910</td>
+                        </tr>
+                        
+                        <tfoot>
+                         <tr> 	
+                            <td></td>
+                         	<td></td>
+                         	<td></td>
+                         	<td></td>
+                         	<td></td>
+                         	<td class="text-center">
+                         	 	<button class="btn btn-default" type="button">提交按钮</button>
+                         	</td>
+                         	<td class="text-center">
+                         	 	<button class="btn btn-default" type="button">重置按钮</button>
+                         	</td>
+                         </tr>                       
+                        </tfoot>
+                 </table>        
+            </div>
+        </div>    
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
